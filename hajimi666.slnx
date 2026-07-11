@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="client1/client1.vcxproj" Id="1ec4e154-fef4-4c32-a435-14cf0f68a12b">
+    <BuildDependency Project="hajimi666.vcxproj" />
+    <BuildDependency Project="server1/server1.vcxproj" />
+  </Project>
+  <Project Path="hajimi666.vcxproj" Id="b959c4d7-3c51-42a0-b5df-3b80acd2b25a" />
+  <Project Path="server1/server1.vcxproj" Id="b458cf92-bb61-4501-a217-8503f3ba0110" />
+</Solution>
